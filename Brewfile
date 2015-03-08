@@ -11,7 +11,8 @@ tap homebrew/binary || true
 tap josegonzalez/php || true
 
 # Packages for development
-install zsh
+install zsh --disable-etcdir
+install zsh-completions
 install git
 install vim
 install wget
@@ -21,6 +22,7 @@ install postgresql
 install python
 install ansible
 install nodebrew
+install ffmpeg --with-theora --with-libogg --with-libvorbis
 
 # php
 install php56 --with-pgsql --with-pdo-pgsql --with-pdo-mysql --enable-opcache
@@ -33,7 +35,6 @@ install readline
 install openssl
 install rbenv
 install ruby-build
-install curl-ca-bundle
 
 # Packages for brew-cask
 install brew-cask
@@ -50,6 +51,7 @@ cask install google-japanese-ime
 cask install atom
 cask install dash
 cask install skitch
+cask install alfred
 
 # Remove outdated versions
 cleanup
