@@ -6,7 +6,7 @@ upgrade
 
 # Add Repository
 tap homebrew/versions || true
-tap phinze/homebrew-cask || true
+tap caskroom/homebrew-cask || true
 tap homebrew/binary || true
 tap josegonzalez/php || true
 
