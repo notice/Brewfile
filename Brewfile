@@ -13,6 +13,7 @@ tap josegonzalez/php || true
 # Packages for development
 install zsh --disable-etcdir
 install zsh-completions
+install fish
 install git
 install vim
 install wget
@@ -23,6 +24,10 @@ install python
 install ansible
 install nodebrew
 install ffmpeg --with-theora --with-libogg --with-libvorbis
+
+install tmux
+install go
+install peco
 
 # php
 install php56 --with-pgsql --with-pdo-pgsql --with-pdo-mysql --enable-opcache
@@ -52,6 +57,7 @@ cask install atom
 cask install dash
 cask install skitch
 cask install alfred
+cask install iterm2
 
 # Remove outdated versions
 cleanup
