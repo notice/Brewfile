@@ -13,7 +13,6 @@ tap josegonzalez/php || true
 # Packages for development
 install zsh --disable-etcdir
 install zsh-completions
-install fish
 install git
 install vim
 install wget
@@ -24,10 +23,14 @@ install python
 install ansible
 install nodebrew
 install ffmpeg --with-theora --with-libogg --with-libvorbis
+install tree
 
-install tmux
+install fish
 install go
 install peco
+
+install tmux
+install reattach-to-user-namespace
 
 # php
 install php56 --with-pgsql --with-pdo-pgsql --with-pdo-mysql --enable-opcache
