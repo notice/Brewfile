@@ -28,6 +28,7 @@ install tree
 install fish
 install go
 install peco
+install z
 
 install tmux
 install reattach-to-user-namespace
@@ -61,6 +62,7 @@ cask install dash
 cask install skitch
 cask install alfred
 cask install iterm2
+cask install android-studio
 
 # Remove outdated versions
 cleanup
