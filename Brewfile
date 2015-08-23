@@ -63,6 +63,7 @@ cask install skitch
 cask install alfred
 cask install iterm2
 cask install android-studio
+cask install skype
 
 # Remove outdated versions
 cleanup
