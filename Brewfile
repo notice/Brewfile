@@ -33,6 +33,9 @@ install z
 install tmux
 install reattach-to-user-namespace
 
+#aws
+install awscli
+
 # php
 install php56 --with-pgsql --with-pdo-pgsql --with-pdo-mysql --enable-opcache
 install php56-mcrypt php56-xdebug php56-redis composer
