@@ -37,7 +37,8 @@ install reattach-to-user-namespace
 install awscli
 
 # php
-install php56 --with-pgsql --with-pdo-pgsql --with-pdo-mysql --enable-opcache
+# xcode-select --install
+install php56 --with-postgresql --with-pdo-pgsql --with-pdo-mysql --enable-opcache
 install php56-mcrypt php56-xdebug php56-redis composer
 install php56-memcached --with-sasl
 install phpunit phpunit-skeleton-generator
@@ -49,7 +50,7 @@ install rbenv
 install ruby-build
 
 # Packages for brew-cask
-install brew-cask
+# install brew-cask
 
 # .dmg from brew-cask
 cask install dropbox
@@ -57,16 +58,13 @@ cask install google-chrome
 cask install virtualbox
 cask install vagrant
 cask install vagrant-manager
-cask install kobito
 cask install github
 cask install google-japanese-ime
 cask install atom
-cask install dash
 cask install skitch
 cask install alfred
 cask install iterm2
 cask install android-studio
-cask install skype
 
 # Remove outdated versions
 cleanup
