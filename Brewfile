@@ -34,6 +34,9 @@ install z
 install tmux
 install reattach-to-user-namespace
 
+# dnsmasq
+install dnsmasq
+
 #aws
 install awscli
 
