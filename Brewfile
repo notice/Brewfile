@@ -21,7 +21,8 @@ install mysql
 install postgresql
 install python
 install ansible
-install nodebrew
+# $ curl -L git.io/nodebrew | perl - setup
+# install nodebrew
 install ffmpeg --with-theora --with-libogg --with-libvorbis
 install tree
 
